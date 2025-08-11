@@ -1,0 +1,1180 @@
+.Footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    font-size: 20px;
+}
+.CopyRight{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px
+}
+.socialLinksContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: inherit;
+}
+.socialProfile{
+    color: inherit;
+    padding: 20px;
+}
+.darkFooter{
+    background-color: rgb(26, 26, 26);
+    color:white;
+}
+.mainLayout{
+    padding: 0px;
+    margin: 0px;
+}
+.Header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    background-color: rgb(225, 226, 236);
+    width: 100%;
+    color:rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px !important;
+}
+.blackBackgroundHeader{
+    background-color: rgb(26, 26, 26);
+    color:white;
+}
+.HeaderProfilePicture{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.sun{
+    color:rgb(255, 153, 0);
+    cursor:pointer;
+}
+.moon{
+    color:rgb(0, 0, 0);
+    cursor:pointer;
+}
+.ProfileContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.ProfileBoxHeader{
+    margin:10px 10px 15px 20px;
+}
+.NavigationLinks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.navItem{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.navButton{
+    color:inherit;
+    background-color: inherit;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+.navButton:focus {
+  outline: none;
+  border: none;
+}
+
+.LogoutButton{
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    outline:none;
+    color:white;
+    padding:5px;
+    font-size:15px;
+    font-weight: 700;
+}
+.NameProfile{
+    height: 50px;
+    width:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.UserProfile{
+    height: 100px;
+    width:100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.userLetter{
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+.ProfilePicture{
+    border-radius: 50%;
+    width:300px;
+    height: 300px;
+}
+.WebsiteLogo{
+    height: 50px;
+    width:15y0px;
+}
+
+.closeBtnContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    border: none;
+    align-items: center;
+}
+
+.closeBtn{
+    background-color: transparent;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+    color: black;
+}
+
+
+.closeBtn:focus{
+    background-color: transparent;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+}
+
+
+.Home{
+    width: 94.6vw;
+    margin-top: 0px;
+    padding:30px ;
+    background-color: #ffffff;
+    color:#282c34;
+}
+.ReactSlickContainer{
+    width:80vw;
+    padding:30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top:0px;
+}
+.slider{
+    width:80vw;
+    display: flex;
+    justify-content: center;
+}
+.SlickContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:20px;
+    margin-top:50px;
+}
+.SlickHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:80%;
+    margin: 10px;
+    font-size: 10px;
+}
+.slick-prev,.slick-next,.slick-prev:before,.slick-next:before{
+    background-color: black;
+    border-radius:50%;
+}
+.mainLoader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.Banner{
+    background-image: url("https://res.cloudinary.com/dub9ymu0j/image/upload/v1672587552/54684_tdkheg.jpg") ;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 80vh;
+    width:80vw;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0px;
+}
+.Banner1{
+    background-color: rgba(0, 0, 0, 0.63);
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.BannerTitle{
+    margin:0px;
+    padding: 30px;
+    width:60vw;
+}
+.moviesButton{
+    background-color: rgb(0, 174, 255);
+    color:white;
+    cursor: pointer;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    width:100px;
+    border-radius: 5px;
+}
+.blackHome{
+    background-color: black;
+    color: white;
+}
+.blackSlick{
+    
+    border: 1px solid gray;
+    background-color: rgb(54, 54, 54);
+    border-radius: 15px;
+}
+.profilePictureLogin{
+    width:200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.NoProfileBox{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    border: 2px solid black;
+    color:inherit;
+}
+.NormalProfile{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    border: 2px solid black;
+    color:inherit ;
+    background-color: transparent !important;
+}
+
+.Face{
+    font-size:75px;
+    color:inherit;
+}
+
+.RegisterForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.FormItemsContainer{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+.InputBoxesContainer{
+    margin: 20px;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    width:240px;
+}
+
+.loginButton{
+    background-color: #008cff;
+    width:250px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    color:white;
+    margin:20px 10px 5px 10px;
+}
+
+.LoginPage{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width:100vw;
+}
+
+.LoginPageBox{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border:1px solid gray;
+    padding:30px;
+    box-shadow: 5px 5px 40px 2px black;
+    border-radius: 15px;
+    background-color: white;
+
+}
+.RegisterPage{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width:100vw;
+}
+.RegisterPageBox{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border:1px solid gray;
+    padding:30px;
+    box-shadow: 5px 5px 40px 2px black;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.LoginLogo{
+    width:300px;
+    margin:20px;
+}
+
+
+
+.RegisterPageLink{
+    color:rgb(0, 89, 255);
+}
+.blackLogin{
+    background-color:black;
+    box-shadow: 5px 10px 100px -40px white;
+}
+.blackProfile{
+    border: 2px solid white;
+    color: #ffffff !important;
+}
+.input{
+    height: 40px;
+    padding:5px 5px 5px 10px;
+    border:1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    margin:10px 0px 10px 0px;
+    background-color: transparent;
+    outline: none;
+    color: #ffffff;
+}
+.input:focus{
+    border-color:rgb(0, 138, 252) ;
+}
+
+.Input{
+    padding:5px 5px 5px 10px;
+    border:none;
+    background-color: transparent;
+    line-height: 25px;
+    outline: none;
+    color:white;
+}
+.input:focus{
+    
+        border-color: rgb(0, 138, 252);
+    
+}
+.label{
+    line-height: 25px;
+    font-weight: 700;
+}
+.DotLoader{
+    color:white;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.darkInput{
+    border-color:white;
+}
+.ProfilePictureContainerLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.error{
+    color:rgb(248, 29, 0);
+    margin:0px;
+    padding: 0px;
+}
+.blackBackground{
+    background-color: rgb(26, 26, 26);
+}
+.whiteBackground{
+    background-color: rgb(225, 226, 236);
+}
+
+.white{
+    color:white;
+}
+
+/* colors */
+
+.yellow{
+    background-color: rgb(251, 255, 0);
+    color:rgb(0, 0, 0) !important;
+}
+.green{
+    background-color: rgb(43, 255, 0);
+    color:red;
+
+}
+.red{
+    background-color: rgb(255, 0, 0);
+    color:black !important;
+
+}
+.blue{
+    background-color: rgb(0, 255, 191);
+    color:rgb(0, 0, 0);
+}
+.orange{
+    background-color: rgb(255, 115, 0);
+    color:red;
+}
+
+.lightBlue{
+    background-color: rgb(0, 162, 255);
+    color:red;
+}
+
+.MovieCardContainer{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    padding: 5px 20px 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(225, 226, 236);;
+    margin:10px;
+}
+.blackMovieCardContainer{
+    background-color: rgb(37, 36, 36);
+}
+.cash{
+    color: green;
+}
+.rupee{
+    color: black;
+    background-color: yellow;
+    border-radius: 50%;
+}
+.CardName{
+    font-weight: 700;
+    width:200px;
+    text-align: center;
+    margin:0px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bottomLineCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    margin-top:10px;
+}
+.belowBottomLine{
+    padding: 0px;
+    margin: 0px;
+    margin-left: auto;
+}
+.ReadMore{
+    margin: 0px;
+}
+.BudgetName{
+    margin:0px;
+    font-size: 13px;
+    text-align: center;
+}
+.Amount{
+    margin:2px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.bottomLineCard{
+    padding: 0px;
+}
+.year{
+    margin: 0px;
+    font-weight: 600;
+}
+.MovieDetailsContainer{
+    width:98.6vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    background-color: white;
+}
+.loadingContainer{
+    height:90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loadingContainer1{
+    height:100vh;
+    width: 98.7vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.table-cell-loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.darkMovieDetails{
+    color: white;
+    background-color: black !important;
+}
+.ReactPlayerContianer{
+    margin-right: 100px;
+}
+.PosterAndTrailerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85vw;
+    padding: 50px 50px 0px 50px;
+}
+.filmPoster{
+    height: 400px;
+}
+.FilmTitleAndLikeDisLikeContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 30px 20px 50px;
+    width: 85vw;
+}
+.LikeDislikeContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 110px;
+}
+.likeButton{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 25px;
+    border-radius: 0px;
+    padding: 0px;
+    margin:0px 15px 0px 15px;
+    color:black;
+}
+.likeButtonDark{
+    color:white;
+}
+.likeButton:focus{
+    border: none;
+    outline: none;
+}
+.likeButton:hover{
+    border-bottom: 1px solid gray ;
+    color: #008cff;
+}
+.plotContainer{
+    width:800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.plot{
+    width:800px;
+    line-height: 0.8cm;
+}
+.plotHeaderContainer{
+    
+    width:900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.HrLine{
+    width:95vw;
+    margin: 0px;
+}
+.castHeading{
+    margin: 0px;
+    padding: 0px;
+    margin-top:20px;
+    text-align: center;
+}
+.CastContainer{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.castBox{
+    margin-left: 30px;
+}.poster{
+    width:200px;
+    height: 300px;
+    cursor: pointer;
+}
+.movieName{
+    font-size:15px;
+    text-align: center;
+    width:180px;
+    font-weight: 700;
+    margin-bottom:0px;
+    height: 30px;
+}
+.bottomLine{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width:80%;
+    margin-left:auto;
+    margin-right: auto;
+}
+.Star{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size:15px;
+    font-weight: 500;
+}
+.bottomLineLogo{
+    display: flex;
+}
+.MovieItemContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottomLineLogo2{
+    color:rgb(0, 102, 255);
+    font-size: 25px;
+}
+.bottomLineLogo1{
+    color:rgb(255, 217, 0);
+    font-size: 25px;
+}
+.Movies{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: start;
+    align-items: start;
+    padding: 20px;
+}
+
+.movieDetailsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+.movieDetails{
+    
+}
+.commentsSection{
+    background-color: #72727277;
+    padding: 20px;
+    width: 30vw;
+    height: 100vh;
+}
+.movieDetails{
+    height: 100vh;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    padding-left: 30px;
+}
+.noComments{
+    padding: 20px;
+    text-align: center;
+}
+.addCommentContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.addCommentInput{
+    width: 70%;
+    border: none;
+    color: inherit;
+    padding: 10px;
+    background-color: transparent;
+    border-bottom:1px solid #636e83;
+    outline: none;
+}
+
+.commentContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    border: 1px solid gray;
+    padding: 10px 20px 10px 20px;
+    margin: 20px 0px 20px 0px;
+    background-color: white;
+    color:black;
+}
+.darkCommentContainer{
+    background-color: black;
+    color:white;
+}
+.commentSub{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.commentProfile{
+    border:none ;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 50%;
+    margin:0px 30px 0px 0px;
+    color: white!important;
+}
+.commentBtn{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 10px;
+    margin-left:20px;
+    color:inherit
+}
+.disableCommentBtn{
+    color: gray;
+    cursor: not-allowed;
+}
+.editComment{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+}
+.commentBtn:focus{
+    border: none;
+    outline: none;
+}
+.commentBtn:hover{
+    color: black;
+    background-color: #636e83;
+}
+.darkCommentProfile{
+    color: black!important;
+}
+.commentName{
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.commentSub2{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.searchContainer{
+    width:100%;
+    display: flex;
+    justify-content: end;
+}
+.SearchBox{
+    margin:20px 30px 20px 0px;
+    border: 1px solid gray; 
+}
+.search{
+    background-color: transparent;
+    color: inherit;
+    border:none;
+    line-height: 0.6cm;
+    outline: none;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.searchButton{
+    background-color:transparent;
+    color: inherit;
+    border: none;
+    padding: 0px 15px 0px 15px;
+    border-left:1px solid gray;
+    height: 100%;
+
+}
+.MoviesContainer{
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    height: 75vh;
+    scrollbar-width: none; 
+}
+.blackMovies{
+    color:white;
+    background-color: black;
+}
+.MoviesNavContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    width: 98.6vw;
+    color: #282c34;
+    background-color: white;
+}
+.MoviesWithNav{
+
+    justify-content: center;
+    align-items: center;
+}
+.Navigator,.darkNavigator{
+    height: 100vh;
+    width:30%;
+    padding: 20px;
+    border-left:1px solid #727272;
+    background-color: rgb(225, 226, 236);;
+}
+.darkNavigator{
+    color:white;
+    background-color:  rgb(26, 26, 26);
+}
+.fileInput{
+    display: none;
+}
+.profileImageRegister{
+    width:200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+/* .cropBox{
+}
+.RegistrantProfileBox{
+
+} */
+.InputBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Eye{
+    color:inherit;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.ProfileAdd{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    color:rgb(0, 102, 255);
+    background-color: transparent;
+}
+.ProfilePictureContainer{
+    display: flex;
+    flex-direction: column;
+}
+.editButtonsContainer{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:auto;
+    margin-right: auto;
+    margin:20px;
+    width:150px;
+}
+.CropButton{
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+    color:black;
+}
+.darkCrop{
+    color:white;
+}
+.changeButton{
+    background-color:rgb(0, 162, 255);
+    color:white;
+    cursor:pointer;
+    border: none;
+    font-weight:700;
+    line-height: 25px;
+    border-radius: 5px;
+}
+/* .cropTheImage{
+}
+.ImagePreviewCrop{
+} */
+.PreviewImage{
+    width:100%;
+}
+.CropContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Face1{
+    font-size:75px;
+}
+.tailLoader{
+    width:50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.App {
+  text-align: center;
+  margin:0px;
+  width:100vw;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.top-movies-table{
+    border-right: 2px solid gray;
+}
+.top-movies-th{
+    /* border: 1px solid gray; */
+    padding: 20px;
+    border-left: 2px solid gray;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+.top-movies-head{
+    /* border: 1px solid gray; */
+    padding: 20px;
+}
+
+
+.top-movies-row{
+    border-bottom: 2px solid gray;
+    border-left: 2px solid gray;
+}
+
+.table-cell{
+    border-bottom: 2px solid gray;
+    border-left: 2px solid gray;
+    padding: 20px;
+}
+
+.table-movie-cell{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    text-transform: capitalize;
+    font-weight: 700;
+    gap: 1rem;
+}
+
+.table-img{
+    width: 70px;
+    height: 100px;
+}
+
+
+
+.statsContainer{
+    height:100vh;
+    width: 98.7vw;
+    overflow: scroll;
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 200px;
+    background-color: white;
+    color: black;
+}
+.statsDark{
+    background-color: black;
+    color: white;
+}
+
+
+.table-images-cell{
+    width: 200px;
+    height: 150px;
+    overflow: scroll;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    scrollbar-width: none;
+}
+
+.stats-title{
+    text-align: center;
+}
+
+.ProfileSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 50px;
+    width: 42.5vw;
+    height: 60vh;
+    border: none;
+    color: black;
+    background-color: white;
+    box-shadow: 5px 10px 100px -40px white;
+}
+
+.darkProfile{
+    color: white;
+    background-color: black;
+}
+
+.darkCloseBtn{
+    color: white;
+}
+
+.ProfileSectionInnerBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.LogoutContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+    height: 200px;
+}
